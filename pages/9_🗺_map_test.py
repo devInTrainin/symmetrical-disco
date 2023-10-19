@@ -15,11 +15,17 @@ st.write(
     heatmap of where the companies currently are."""
 )
 
-# import streamlit as st
-import streamlit.components.v1 as components
+# # import streamlit as st
+# import streamlit.components.v1 as components
 
-# embed streamlit docs in a streamlit app
-components.iframe("https://www.google.com/maps/")
+# # embed streamlit docs in a streamlit app
+# components.iframe("https://www.google.com/maps/")
+#import module
+import folium
+
+#create folium object
+my_map= folium.Map(location=[26.5236, 85.6750])
+
 
 ##
 
