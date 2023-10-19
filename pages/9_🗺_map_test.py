@@ -14,6 +14,13 @@ st.write(
     """This demo shows our inital upload of the PushpinMap which shows the entirety of Malaysia and labels for each of the companies within it. It also shows the 
     heatmap of where the companies currently are."""
 )
+
+# import streamlit as st
+import streamlit.components.v1 as components
+
+# embed streamlit docs in a streamlit app
+components.iframe("https://www.google.com/maps/")
+
 ##
 
 # # Get the parent directory of the script's directory
